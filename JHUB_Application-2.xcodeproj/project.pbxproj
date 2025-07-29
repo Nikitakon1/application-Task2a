@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FA5623EA2E390ECC0074CC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5623CF2E390ECB0074CC47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5623D62E390ECB0074CC47;
+			remoteInfo = "JHUB_Application-2";
+		};
+		FA5623F42E390ECC0074CC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5623CF2E390ECB0074CC47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5623D62E390ECB0074CC47;
+			remoteInfo = "JHUB_Application-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5623D72E390ECB0074CC47 /* JHUB_Application-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHUB_Application-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5623E92E390ECC0074CC47 /* JHUB_Application-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHUB_Application-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5623F32E390ECC0074CC47 /* JHUB_Application-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHUB_Application-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA5623D92E390ECB0074CC47 /* JHUB_Application-2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "JHUB_Application-2";
+			sourceTree = "<group>";
+		};
+		FA5623EC2E390ECC0074CC47 /* JHUB_Application-2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "JHUB_Application-2Tests";
+			sourceTree = "<group>";
+		};
+		FA5623F62E390ECC0074CC47 /* JHUB_Application-2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "JHUB_Application-2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5623D42E390ECB0074CC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5623E62E390ECC0074CC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5623F02E390ECC0074CC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5623CE2E390ECB0074CC47 = {
+			isa = PBXGroup;
+			children = (
+				FA5623D92E390ECB0074CC47 /* JHUB_Application-2 */,
+				FA5623EC2E390ECC0074CC47 /* JHUB_Application-2Tests */,
+				FA5623F62E390ECC0074CC47 /* JHUB_Application-2UITests */,
+				FA5623D82E390ECB0074CC47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5623D82E390ECB0074CC47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5623D72E390ECB0074CC47 /* JHUB_Application-2.app */,
+				FA5623E92E390ECC0074CC47 /* JHUB_Application-2Tests.xctest */,
+				FA5623F32E390ECC0074CC47 /* JHUB_Application-2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5623D62E390ECB0074CC47 /* JHUB_Application-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5623FD2E390ECC0074CC47 /* Build configuration list for PBXNativeTarget "JHUB_Application-2" */;
+			buildPhases = (
+				FA5623D32E390ECB0074CC47 /* Sources */,
+				FA5623D42E390ECB0074CC47 /* Frameworks */,
+				FA5623D52E390ECB0074CC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA5623D92E390ECB0074CC47 /* JHUB_Application-2 */,
+			);
+			name = "JHUB_Application-2";
+			packageProductDependencies = (
+			);
+			productName = "JHUB_Application-2";
+			productReference = FA5623D72E390ECB0074CC47 /* JHUB_Application-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5623E82E390ECC0074CC47 /* JHUB_Application-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5624002E390ECC0074CC47 /* Build configuration list for PBXNativeTarget "JHUB_Application-2Tests" */;
+			buildPhases = (
+				FA5623E52E390ECC0074CC47 /* Sources */,
+				FA5623E62E390ECC0074CC47 /* Frameworks */,
+				FA5623E72E390ECC0074CC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5623EB2E390ECC0074CC47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA5623EC2E390ECC0074CC47 /* JHUB_Application-2Tests */,
+			);
+			name = "JHUB_Application-2Tests";
+			packageProductDependencies = (
+			);
+			productName = "JHUB_Application-2Tests";
+			productReference = FA5623E92E390ECC0074CC47 /* JHUB_Application-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5623F22E390ECC0074CC47 /* JHUB_Application-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5624032E390ECC0074CC47 /* Build configuration list for PBXNativeTarget "JHUB_Application-2UITests" */;
+			buildPhases = (
+				FA5623EF2E390ECC0074CC47 /* Sources */,
+				FA5623F02E390ECC0074CC47 /* Frameworks */,
+				FA5623F12E390ECC0074CC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5623F52E390ECC0074CC47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA5623F62E390ECC0074CC47 /* JHUB_Application-2UITests */,
+			);
+			name = "JHUB_Application-2UITests";
+			packageProductDependencies = (
+			);
+			productName = "JHUB_Application-2UITests";
+			productReference = FA5623F32E390ECC0074CC47 /* JHUB_Application-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5623CF2E390ECB0074CC47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					FA5623D62E390ECB0074CC47 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					FA5623E82E390ECC0074CC47 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FA5623D62E390ECB0074CC47;
+					};
+					FA5623F22E390ECC0074CC47 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FA5623D62E390ECB0074CC47;
+					};
+				};
+			};
+			buildConfigurationList = FA5623D22E390ECB0074CC47 /* Build configuration list for PBXProject "JHUB_Application-2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5623CE2E390ECB0074CC47;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA5623D82E390ECB0074CC47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5623D62E390ECB0074CC47 /* JHUB_Application-2 */,
+				FA5623E82E390ECC0074CC47 /* JHUB_Application-2Tests */,
+				FA5623F22E390ECC0074CC47 /* JHUB_Application-2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5623D52E390ECB0074CC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5623E72E390ECC0074CC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5623F12E390ECC0074CC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5623D32E390ECB0074CC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5623E52E390ECC0074CC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5623EF2E390ECC0074CC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5623EB2E390ECC0074CC47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5623D62E390ECB0074CC47 /* JHUB_Application-2 */;
+			targetProxy = FA5623EA2E390ECC0074CC47 /* PBXContainerItemProxy */;
+		};
+		FA5623F52E390ECC0074CC47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5623D62E390ECB0074CC47 /* JHUB_Application-2 */;
+			targetProxy = FA5623F42E390ECC0074CC47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA5623FB2E390ECC0074CC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NSCameraUsageDescription = "taking phots";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA5623FC2E390ECC0074CC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NSCameraUsageDescription = "taking phots";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5623FE2E390ECC0074CC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2L7ASK2RA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Phots;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NSCameraUsageDescription = "\"Taking photos of receipts\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.konovalchik.JHUB-Application-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA5623FF2E390ECC0074CC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2L7ASK2RA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Phots;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NSCameraUsageDescription = "\"Taking photos of receipts\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.konovalchik.JHUB-Application-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA5624012E390ECC0074CC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.konovalchik.JHUB-Application-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHUB_Application-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JHUB_Application-2";
+			};
+			name = Debug;
+		};
+		FA5624022E390ECC0074CC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.konovalchik.JHUB-Application-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHUB_Application-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JHUB_Application-2";
+			};
+			name = Release;
+		};
+		FA5624042E390ECC0074CC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.konovalchik.JHUB-Application-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHUB_Application-2";
+			};
+			name = Debug;
+		};
+		FA5624052E390ECC0074CC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.konovalchik.JHUB-Application-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHUB_Application-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5623D22E390ECB0074CC47 /* Build configuration list for PBXProject "JHUB_Application-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5623FB2E390ECC0074CC47 /* Debug */,
+				FA5623FC2E390ECC0074CC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5623FD2E390ECC0074CC47 /* Build configuration list for PBXNativeTarget "JHUB_Application-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5623FE2E390ECC0074CC47 /* Debug */,
+				FA5623FF2E390ECC0074CC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5624002E390ECC0074CC47 /* Build configuration list for PBXNativeTarget "JHUB_Application-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5624012E390ECC0074CC47 /* Debug */,
+				FA5624022E390ECC0074CC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5624032E390ECC0074CC47 /* Build configuration list for PBXNativeTarget "JHUB_Application-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5624042E390ECC0074CC47 /* Debug */,
+				FA5624052E390ECC0074CC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5623CF2E390ECB0074CC47 /* Project object */;
+}
